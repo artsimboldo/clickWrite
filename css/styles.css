@@ -1,0 +1,141 @@
+/* reset */
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* render html5 elements as block */
+header, footer, section {
+	display: block;
+}
+
+/* layout */
+body {
+	line-height: 1;
+	background: #56C9EF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #555;
+	font-size: 14px;
+	line-height: 18px;
+}
+	
+#main,
+#wrapper {
+	margin: 0 auto;
+	width: 840px;
+}
+
+#container {
+	float: Left;
+	width: 100%;
+}
+
+#actionbox {
+	overflow: hidden;
+	border-style:solid;
+	border-width:1px;
+	border-color:#ccccee;
+	width: 90%;
+}
+
+/* generic */
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: bold;
+	color: #433;
+}
+
+/* header */
+header {
+	margin-top: 15px;
+	padding: 15px 0 0 0;
+}
+
+header>h1 {
+	margin: 0 0 18px 0;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+}
+
+/* main content */
+#main {
+	overflow: hidden;
+}
+
+#wrapper {
+	background: #fafaf0;
+	padding: 0 20px;
+}
+
+#content {
+	margin-bottom: 150px;
+	padding-left: 20px;
+}
+
+#canvas3d {
+}
+
+/* action menu */
+.actionStyle {
+	margin: 0;
+	padding: 0;
+	z-index: 30
+}
+
+.actionStyle li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 18px arial
+}
+
+.actionStyle li a {
+	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 2px;
+	text-align: center;
+	text-decoration: none
+}
+
+.actionStyle li a:hover {
+	background: #49A3FF
+}
+
+.actionStyle div {
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2
+}
+
+.actionStyle div a {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: #EAEBD8;
+	color: #2875DE;
+	font: 14px arial
+}
+
+.actionStyle div a:hover {
+	background: #49A3FF;
+	color: #FFF
+}
+
+.actionStyle li input {
+	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 2px;
+	font: italic 18px arial;
+	color: rgb(50,50,50);
+	border-style: none;
+}

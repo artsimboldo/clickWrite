@@ -1,0 +1,61 @@
+<!doctype html> 
+<html lang="fr"> 
+	<head> 
+		<meta charset="utf-8"> 
+		<title>clickWrite demo - raisonnenment spatial</title> 
+		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" /> 
+		<script src = "js/webgl/scenejs.js" type = "text/javascript"></script>
+		<script src = "js/utils.js" type = "text/javascript"></script>
+		<!--<script src = "js/array.js" type = "text/javascript"></script> -->
+		<script src = "js/gameSpatialTest.js" type = "text/javascript"></script>
+		<script src = "js/game.js" type = "text/javascript"></script>
+		<script src = "js/scene.js" type = "text/javascript"></script>
+		<script src = "js/scene3d.js" type = "text/javascript"></script>
+		<script src = "js/menu.js" type = "text/javascript"></script>
+	</head> 
+	<body> 
+		<!-- #wrapper --> 
+		<div id="wrapper">
+			<!-- header --> 
+			<header>
+				<!-- header title --> 
+				<h1>Raisonnement spatial avec sémantique procédurale en webGL.</h1>
+			</header>
+			<!-- main content --> 
+			<section id="main">
+				<!-- container --> 
+				<section id="container">
+					<!-- content --> 
+					<section id="content">
+						<!-- 3d -->
+						<canvas id="canvas3d" style="border: none" width="800" height="600"></canvas> 
+						<!-- action --> 
+						<div id="actionbox"> 
+							<ul id="action1" class="actionStyle"></ul> 
+						</div>
+						<div id="actionbox"> 
+							<ul id="action2" class="actionStyle"></ul> 
+						</div>
+						<div id="actionbox"> 
+							<ul id="action3" class="actionStyle"></ul> 
+						</div>
+						<div id="actionbox"> 
+							<ul id="action4" class="actionStyle"></ul> 
+						</div>
+						<div id="actionbox"> 
+							<ul id="action5" class="actionStyle"></ul> 
+						</div>
+						<div id="actionbox"> 
+							<ul id="action6" class="actionStyle"></ul> 
+						</div>
+					</section>
+				</section>
+				<!-- script --> 
+				<script>
+					var game = testGame();
+					createScene(game);
+				</script>
+			</section>
+		</div>
+	</body> 
+</html> 

@@ -1,0 +1,51 @@
+// Test 1
+Un cube rouge est a droite d'un cube bleu
+SUCCESS
+
+// Test 2 (rule 1)
+Un cube rouge est a droite d'un cube bleu
+Le cube rouge est a gauche du cube bleu
+FAIL
+
+// Test 3 (rule 4)
+Un cube rouge est a droite d'un cube bleu
+Un cube vert est a gauche du cube rouge
+SUCESS
+
+// Test 4 (rule 4)
+Un cube rouge est a droite d'un cube bleu
+Un cube vert est a gauche du cube rouge
+Le cube vert est a droite du cube bleu
+SUCCESS
+
+
+
+
+
+
+// TODO
+
+Un cube rouge est a droite du cube bleu
+Un cube vert est a gauche du cube rouge
+Un cube jaune est devant le cube vert
+Le cube vert est a gauche du cube bleu
+SUCCESS
+
+Un cube rouge est a droite du cube bleu
+Un cube vert est a gauche du cube rouge
+Le cube vert est derriere un cube jaune
+Le cube vert est a gauche du cube bleu
+SUCCESS
+
+Un cube rouge est a droite d'un cube bleu
+Un cube vert est a gauche du cube rouge
+Un cube jaune est devant le cube bleu
+Un cube orange est devant le cube vert
+Le cube orange est a droite du cube jaune
+Le cube vert est a gauche du cube bleu
+FAIL
+
+Un cube rouge est a droite d'un cube bleu
+Le cube rouge est devant un cube jaune
+Le cube jaune est derrriere le cube bleu
+FAIL

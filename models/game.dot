@@ -1,0 +1,162 @@
+digraph game {
+	0 [label="personnage"];
+    1 [label="homme"];
+    2 [label="femme"];
+    3 [label="Roméo"];
+    4 [label="Juliette"];
+
+	10 [label="porte"];
+	20 [label="tasse de café"];
+	21 [label="verre de vin"];
+	22 [label="verre d'alcool"];
+	23 [label="bière"];
+	24 [label="fiole empoisonnée"];
+	30 [label="couteau"];
+    
+	/* adjectives */
+    50 [label="petit homme"];
+    51 [label="grand homme"];
+    60 [label="petite femme"];
+    61 [label="grande femme"];
+    
+    /* semantic groups of things */
+	200 [label="quelque chose"];
+	201 [label="une chose"];
+	202 [label="un objet"];
+	203 [label="une boisson"];
+
+	/* dialogs */
+	1000 [label="(cliquez et entrez une réplique)"];
+
+    /* predicates */
+    /* transitive verbs */
+    101 [label="marche vers"];
+    102 [label="regarde"];
+    103 [label="prend"];
+    104 [label="boit"];
+    107 [label="dit:"];
+    108 [label="ne regarde pas"];
+    
+    101 -> 200 [label="expand"];
+    102 -> 200 [label="expand"];
+    103 -> 202 [label="expand"];
+    104 -> 203 [label="expand"];
+    107 -> 1000 [label="expand"];
+    108 -> 200 [label="expand"];
+    
+    /* not transitive verbs */
+    100 [label="agit"];
+    105 [label="rit"];
+    106 [label="pleure"];
+    
+	/* adverbs */
+    300 [label="marche lentement vers"];
+    301 [label="marche rapidement vers"];
+    302 [label="marche en titubant vers"];
+    101 -> 300;
+    101 -> 301;
+    101 -> 302;
+
+    310 [label="regarde fixement"];
+    311 [label="regarde subrepticement"];
+    312 [label="regarde langoureusement"];
+    102 -> 310;
+    102 -> 311;
+    102 -> 312;
+
+    320 [label="prend lentement"];
+    321 [label="prend rapidement"];
+    322 [label="prend maladroitement"];
+    103 -> 320;
+    103 -> 321;
+    103 -> 322;
+
+    330 [label="boit lentement"];
+    331 [label="boit rapidement"];
+    332 [label="boit goulument"];
+    104 -> 330;
+    104 -> 331;
+    104 -> 332;
+
+    340 [label="ricane"];
+    341 [label="rit fortement"];
+    342 [label="rit aux éclats"];
+    105 -> 340;
+    105 -> 341;
+    105 -> 342;
+
+    350 [label="sanglote"];
+    351 [label="pleure fortement"];
+    352 [label="éclate en sanglots"];
+    106 -> 350;
+    106 -> 351;
+    106 -> 352;
+
+    360 [label="murmure:"];
+    361 [label="crie:"];
+    107 -> 360;
+    107 -> 361;
+    
+	/* head node */
+	0  [label="personnage"];
+	0 -> 100 [label="expand"];
+
+	/* EDGES */
+	/* characters options */
+    0 -> 1;
+    0 -> 2;
+    0 -> 3;
+    0 -> 4;
+
+    /* all things */
+    200 -> 1;
+    200 -> 2;
+    200 -> 3;
+    200 -> 4;
+    200 -> 10;
+    200 -> 20;
+    200 -> 21;
+    200 -> 22;
+    200 -> 23;
+    200 -> 24;
+    200 -> 30;
+
+    1 -> 50;
+    1 -> 51;
+    2 -> 60;
+    2 -> 61;
+    
+    /* things not alived */
+    201 -> 10;
+    201 -> 20;
+    201 -> 21;
+    201 -> 22;
+    201 -> 23;
+    201 -> 24;
+    201 -> 30;
+
+	/* things one can take */
+    202 -> 20;
+    202 -> 21;
+    202 -> 22;
+    202 -> 23;
+    202 -> 24;
+    202 -> 30;
+    
+    /* things one can drink */
+    203 -> 20;
+    203 -> 21;
+    203 -> 22;
+    203 -> 23;
+    203 -> 24;
+
+	/* verb options */
+    100 -> 107;
+    100 -> 101;
+    100 -> 102;
+    100 -> 108;
+    100 -> 103;
+    100 -> 104;
+    100 -> 105;
+    100 -> 106;
+}
