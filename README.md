@@ -27,6 +27,6 @@ When assertions are entered, they are checked against the mental model to determ
 
 ### References
 - [1] Tesnière, Lucien (1959). Éléments de syntaxe structurale, Klincksieck, Paris.
-- [2] Wittgenstein, Ludwig (1953). Philosophical Investigations. Blackwell.
-- [3] Johnson-Laird, Philip N (1983). Mental Models: Toward a Cognitive Science of Language, Inference and Consciousness. Harvard University Press.
-- [4] Roger Evans and Richard Power (2003) WYSIWYM: building user interfaces with natural language feedback. Research notes and demonstration papers at EACL-03, pp. 203-206, Budapest, Hungary.
+- [2] Wittgenstein, Ludwig (1953). Philosophical Investigations, Blackwell.
+- [3] Johnson-Laird, Philip N (1983). Mental Models: Toward a Cognitive Science of Language, Inference and Consciousness, Harvard University Press.
+- [4] Roger Evans and Richard Power (2003) WYSIWYM: building user interfaces with natural language feedback, Research notes and demonstration papers at EACL-03, pp. 203-206, Budapest, Hungary.
