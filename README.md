@@ -1,7 +1,7 @@
 clickWrite
 ==========
 
-Experiment with Johnson-Laird's Procedural Semantics on spatial reasonning, language-games, webGL (http://scenejs.org/) and text generation based menu interface.
+Experiment with Johnson-Laird's Procedural Semantics on spatial reasonning, language-games, [WebGL](http://scenejs.org/) and text generation based menu interface.
 
 ![](snapshot.png)
 
