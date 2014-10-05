@@ -5,6 +5,9 @@ Experiment with Johnson-Laird's Procedural Semantics on spatial reasonning, webG
 
 ![](snapshot.png)
 
+### Instructions
+Simply double-click `clickWriteSpatialdemo.html`.  
+
 ### Description
 
 ### Example of game
