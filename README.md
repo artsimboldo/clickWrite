@@ -1,13 +1,12 @@
 clickWrite
 ==========
 
-Experiment with Johnson-Laird's Procedural Semantics on spatial reasonning, language-games, webGL and text generation based menu interface.
+Experiment with Johnson-Laird's Procedural Semantics on spatial reasonning, language-games, webGL (http://scenejs.org/) and text generation based menu interface.
 
 ![](snapshot.png)
 
 ### Instructions
 Simply double-click `clickWriteSpatialdemo.html`.  
-Uses SceneJS http://scenejs.org/
 
 ### Description
 This is my implementation of the REMAKE procedure described in Johnson-Laird book (see [3], chapter 11). The theory assumes that there are procedures that construct the basis of the meanins of expressions. In this simple example, the mental model is represented by a spatial array of objects (coloured cubes). Assertions are entered using a menu based interface in plain french. From menu options, a system has been developed to re-generate grammatically correct sentences from inputs, as descrfive in the WYSIWYM approach [4]. 
