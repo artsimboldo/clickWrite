@@ -9,7 +9,7 @@ Experiment with Johnson-Laird's Procedural Semantics on spatial reasonning, lang
 Simply double-click `clickWriteSpatialdemo.html`.  
 
 ### Description
-This is my implementation of the REMAKE procedure described in Johnson-Laird book (see [3], chapter 11). The theory assumes that there are procedures that construct the basis of the meanins of expressions. In this simple example, the mental model is represented by a spatial array of objects (coloured cubes). Assertions are entered using a menu based interface in plain french. From menu options, a system has been developed to re-generate grammatically correct sentences from inputs, as descrfive in the WYSIWYM approach [4]. 
+This is my implementation of the REMAKE procedure described in Johnson-Laird's book (see [3], chapter 11). The theory assumes that there are procedures that construct the basis of the meanins of expressions. In this simple example, the mental model is represented by a spatial array of objects (coloured cubes). Assertions are entered using a menu based interface in plain french. From menu options, a system has been developed to re-generate grammatically correct sentences from inputs, as proposed in the WYSIWYM approach [4]. 
 
 A sentence is syntactically inspired by a dependency model model ala Tesniere [1], where verbs occupy the root position of a structure pointing to subordinate terms (nodes); namely a subject and a complement. The whole structure is called a stemma, from which each node can be instantiated independently to create a sentence using a mouse or a touch-based simple interface. a stemma is transformed to a predicate when asserted.
 
