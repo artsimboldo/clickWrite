@@ -13,7 +13,7 @@ This is my implementation of the REMAKE recursive procedure described in Johnson
 
 A sentence is syntactically inspired by a dependency model ala Tesniere [1], where verbs occupy the root position of a structure pointing to subordinated terms (nodes); namely a subject and a complement. The whole structure is called a stemma, from which each node can be instantiated independently to create a sentence using a mouse or a touch-based simple interface. Stemmata are transformed to predicates when asserted.
 
-Each node is associated to an anchor that could lead to possible words or syntactic roles. Menu navigation is declared through a semantic network I'm calling a "game", since it's inspired from Wittgenstein's language-games [2]. A "game" is a graph data structure connecting idioms to represent a family of meanings regrouped towards a specific activity e.g. place cubes relatively to each other. From games, we can deduce subordinated nodes to expand or detail the sentence from meaningful and syntactically correct new constituants.
+Each node is associated to an anchor that could lead to possible words or syntactic roles. Menu navigation is declared through a semantic network I'm calling a "game", since it's inspired from Wittgenstein's language-games [2]. A "game" is a semantic network connecting idioms to represent a family of meanings regrouped towards a specific activity e.g. place cubes relatively to each other. From games, we can deduce subordinated nodes to expand or detail the sentence from meaningful and syntactically correct new constituants.
 
 A simple colour schema describe possible anchors at a certain state of the sentence:
 - Blue anchor: no more sub-options available, the anchor is completed.
