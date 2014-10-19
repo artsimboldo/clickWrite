@@ -6,7 +6,7 @@ Experiment with Johnson-Laird's Procedural Semantics on spatial reasonning, lang
 ![](snapshot.png)
 
 ### Instructions
-Simply double-click `clickWriteSpatialdemo.html`.  
+Simply double-click `clickWriteSpatialdemo.html`. Tested in Chrome.
 
 ### Description
 This is my implementation of the REMAKE recursive procedure described in Johnson-Laird's book (see [3], chapter 11). The theory assumes that there are procedures that construct the basis of the meanings of expressions. In this simple example, the mental model is represented by a spatial array of objects (coloured cubes). Assertions are entered using a menu based interface in plain french. From menu options, a system has been developed to re-generate grammatically correct sentences from inputs, as proposed in the WYSIWYM approach [4]. 
